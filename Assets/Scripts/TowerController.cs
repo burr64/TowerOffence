@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KreepController : MonoBehaviour
+public class TowerController : MonoBehaviour
 {
-    [SerializeField] private int _speed, _speed_damage, _damage, _radius, _hp, _price;
+    [SerializeField] private int _speed_damage, _damage, _radius, _width, _lenght;
 
     // Start is called before the first frame update
     void Start()
