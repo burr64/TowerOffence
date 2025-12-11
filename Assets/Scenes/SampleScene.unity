@@ -223,7 +223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1162291103}
-  - component: {fileID: 1162291102}
+  - component: {fileID: 1162291104}
   m_Layer: 0
   m_Name: GridManager
   m_TagString: Untagged
@@ -231,18 +231,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1162291102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162291101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee02b40c9f0c543cfaccba8678fbb645, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1162291103
 Transform:
   m_ObjectHideFlags: 0
@@ -258,6 +246,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1162291104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162291101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341a14ed431b646539db5ce3aa79883e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _height: 9
+  _width: 16
+  _tilePrefab: {fileID: 5073953242137365279, guid: 4fa48815800a1421da64e484261a0bb4, type: 3}
+  _cam: {fileID: 519420032}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
